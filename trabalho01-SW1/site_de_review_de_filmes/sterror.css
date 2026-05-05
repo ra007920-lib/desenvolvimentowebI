@@ -1,0 +1,123 @@
+body {
+    max-width: 100%;
+    margin: auto;
+    background: linear-gradient(180deg, #000000, #2b0000, #000);
+    background-attachment: fixed;
+    color: #dddddd; 
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+
+    display: flex;        
+    flex-wrap: wrap;
+}
+
+header {
+    background: #1a0000;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 0;
+    text-align: center;
+    color: #ff0000; 
+    text-shadow: 0 0 15px #8b0000; 
+    width: 100%;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    filter: grayscale(30%) contrast(120%);
+}
+
+nav {
+    background: #0a0000;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    gap: 20px;                  
+}
+
+nav a {
+    color: #8b0000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff0000;
+    text-shadow: 0 0 10px #ff0000;
+}
+
+aside {
+    background: #0d0000;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    color: #ffffff;
+    flex: 1;  
+    margin: 15px;
+    border-left: 3px solid #660000;
+}
+
+aside a {
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: #ff0000;
+}
+
+main {
+    background: #050000;
+    border-radius: 10px;
+    width: 60%;
+    padding: 10px;
+    flex: 3;
+    margin: 15px;
+}
+
+article {
+    background: #120000;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    color: #cccccc;
+    border: 1px solid #440000;
+    box-shadow: 0 0 15px #220000;
+    transition: 0.4s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+article:hover {
+    transform: scale(1.03);
+    border-color: #ff0000;
+    box-shadow: 0 0 25px #ff0000;
+}
+
+article img {
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px 0;
+    filter: sepia(20%) brightness(80%);
+}
+
+footer {
+    background: #0a0000;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    color: #660000;
+    width: 100%;
+    border-top: 1px solid #330000;
+}
